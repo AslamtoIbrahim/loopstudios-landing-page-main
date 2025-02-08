@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-alata: "Alata", sans-serif;
+  --font-josefin: "Josefin Sans", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+html{
+  font-size: 15px;
+}
+ 
+
+.font-alata {
+  font-family: var(--font-alata);
+}
+
+.font-josefin {
+  font-family: var(--font-josefin);
+}
+ 
