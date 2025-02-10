@@ -16,6 +16,10 @@ export default {
         alata: ["Alata", "sans-serif"],
         josefin: ["Josefin Sans", "sans-serif"],
       },
+      backgroundImage:{
+        "hero-mobile": "url('../../public/pictures/images/mobile/image-hero.jpg')",
+        "hero-desk": "url('../../public/pictures/images/desktop/image-hero.jpg')",
+      }
     },
   },
   plugins: [],
