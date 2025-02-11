@@ -5,11 +5,11 @@ import interDesktop from '../../../../public/pictures/images/desktop/image-inter
 
 const InteractiveImage = () => {
   return (
-    <picture className='w-full'>
-        <source srcSet={interMobile.src}
-        media='(max-width:425px)'  />
-        <Image src={interDesktop} alt='interctive iamge'
-        width={654} height={448}/>
+    <picture className='w-full h-auto'>
+        <source srcSet={interDesktop.src}
+        media='(min-width:425px)'  />
+        <Image src={interMobile} alt='interctive iamge'
+        height={448} width={654} className='object-contain w-full h-auto'/>
          
     </picture>
   )
