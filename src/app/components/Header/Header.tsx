@@ -20,7 +20,7 @@ const Header = () => {
   };
   return (
     <header
-      className={`md:brightness-90 md:bg-hero-desk bg-center bg-no-repeat bg-cover w-full 
+      className={`md:brightness-95 md:bg-hero-desk bg-center bg-no-repeat bg-cover w-full 
                 px-5 py-6 md:py-16 md:px-20 lg:px-24 xl:px-36
                 ${
                   menu
