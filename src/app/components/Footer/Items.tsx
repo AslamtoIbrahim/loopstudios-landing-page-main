@@ -1,12 +1,15 @@
 import React from "react";
 import { menuItems } from "../Main/data";
-const Items = () => {
+import NavItem from "../Header/NavItem";
+
+type prop = { styles?: string };
+const Items = ({ styles }: prop) => {
   return (
-    <div>
-      <ul>
+    <div className={styles}>
+      <ul className="md:flex">
         {menuItems.map((item, index) => (
           <li className="py-1" key={index}>
-            <a className="text-white font-josefin hover:underline hover:underline-offset-2" href="#">{item}</a>
+            <NavItem text={item} />
           </li>
         ))}
       </ul>
