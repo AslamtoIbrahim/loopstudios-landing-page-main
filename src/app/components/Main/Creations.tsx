@@ -8,7 +8,7 @@ const Creations = () => {
     <div className="py-12 md:mt-24 grid justify-center justify-items-center items-center
      md:grid-cols-3 md:gap-8 ">
       <h1 className="uppercase font-josefin font-semibold text-2xl md:justify-self-start 
-      xl:text-3xl 2xl:text-6xl ">
+      xl:text-3xl 2xl:text-6xl mb-4 md:mb-0">
         Our creations
       </h1>
       <section className="
@@ -37,7 +37,7 @@ const Creations = () => {
           );
         })}
       </section>
-      <section className="md:col-start-3 md:col-end-4 md:justify-self-end ">
+      <section className="md:col-start-3 md:col-end-4 md:justify-self-end mt-4 md:mt-0">
           <SeeAllButton />
       </section>
     </div>

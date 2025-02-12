@@ -42,4 +42,5 @@
   ];
   
   
-  
+  export const menuItems = ["About", "Careers", "Events", "Products", "Support"];
+ 
